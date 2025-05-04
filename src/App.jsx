@@ -4,8 +4,9 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import routes from "../src/routes/index.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Sidebar from "../src/components/Sidebar.jsx";
+// import Sidebar from "../src/components/Sidebar.jsx";
 import { useUserStore } from "../src/stores/userStore/userInfoStore";
+import NavBar from "@/pages/NavBar.jsx"
 
 function AppContent() {
   const setAuth = useUserStore((s) => s.setAuth);
@@ -32,11 +33,13 @@ function AppContent() {
 
   return (
     <div className="flex h-screen bg-main text-primary transition-colors">
-      {showSidebar && (
+{/*       {showSidebar && (
         <div className="shadow-md bg-background">
           <Sidebar open={sidebarOpen} setOpen={setSidebarOpen} />
         </div>
-      )}
+      )} */}
+
+      <NavBar/>
 
       <main
         className={`
