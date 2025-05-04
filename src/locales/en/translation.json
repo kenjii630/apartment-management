@@ -1,0 +1,181 @@
+{
+  "home": "Home",
+  "rooms": "Rooms",
+  "parking": "Parking",
+  "owners": "Owners",
+  "settings": "Settings",
+  "logout": "Log Out",
+  "export": "Export",
+  "export_current": "Export Current Page",
+  "export_all": "Export All Data",
+  "page_of": "Page {{page}} of {{totalPages}}",
+  "totals": "Totals: {{totalCount}}",
+  "sign_in": "Sign in to your account",
+  "email": "Email address",
+  "password": "Password",
+  "submit": "Sign In",
+  "total_rooms": "Totals Rooms",
+  "parking_spots": "Parking Spots",
+  "monthly_revenue": "Monthly Revenue",
+  "outstanding": "Outstanding Payments",
+  "home_title": "News",
+  "table": {
+    "table_home": {
+      "title": "News",
+      "columns": {
+        "room": "Room",
+        "rental": "Rental",
+        "type": "Type",
+        "amount": "Amount",
+        "date": "Date"
+      }
+    }
+  },
+  "form": {
+    "btn": {
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "room_number": {
+      "title": "Room",
+      "placeholder": "Enter room number",
+      "error": {
+        "required": "Room number is required",
+        "invalid": "Invalid room number"
+      }
+    },
+    "rent_amount": {
+      "title": "Rental",
+      "placeholder": "Enter rental amount",
+      "error": {
+        "required": "Rental amount is required",
+        "invalid": "Invalid rental amount"
+      }
+    },
+    "name": {
+      "title": "Name",
+      "placeholder": "Select type",
+      "error": {
+        "required": "Type is required"
+      }
+    },
+    "phone": {
+      "title": "Phone Number",
+      "placeholder": "Enter amount",
+      "error": {
+        "required": "Amount is required",
+        "invalid": "Invalid amount"
+      }
+    },
+    "contract_start_date": {
+      "title": "Contract Start Date",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "contract_end_date": {
+      "title": "Contract End Date",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "deposit": {
+      "title": "Deposit Amount",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "payment": {
+      "title": "Payment Method",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "payment_period": {
+      "title": "Payment Period",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      },
+      "options": {
+        "1": "Monthly",
+        "2": "Quarterly",
+        "3": "Yearly"
+      }
+    },
+    "waterandelectricity": {
+      "title": "Water and Electricity",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "utility_bill_due_date": {
+      "title": "Utility Bill Due Date",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "decoration_status": {
+      "title": "Decoration Status",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      },
+      "options": {
+        "1": "New",
+        "2": "Old"
+      }
+    },
+    "check_in_status": {
+      "title": "Check-in Status",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      },
+      "options": {
+        "1": "Checked In",
+        "2": "Not Checked In"
+      }
+    },
+    "deposite_status": {
+      "title": "Deposit Status",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      },
+      "options": {
+        "1": "Paid",
+        "2": "Not Paid"
+      }
+    }
+  },
+  "title_edit_room": "Edit Room",
+  "title_edit_parking": "Edit Parking",
+  "edit": "Edit",
+  "room_count": "Room Count",
+  "parking_count": "Parking Spots",
+  "monthly_income": "Monthly Income",
+  "last_collection": "Last Collection",
+  "owner_detail": "Owner Details",
+  "owner_management": "Owner Management",
+  "property_overview": "Property overview",
+  "income_summary": "Income Summary",
+  "payment_history": "Payment History",
+  "payment_cycle": "Payment Cycle",
+  "rent": "Rent",
+  "export_report": "Export Report",
+  "edit_info": "Edit Info",
+  "parking_management": "Parking Management",
+  "room_management": "Room Management",
+  "last_payment": "Last Payment",
+  "payment_due": "Payment Due",
+  "next_payment": "Next Payment",
+  "edit_owner": "Edit Owner",
+  "branding": "Versailles"
+}

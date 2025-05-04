@@ -1,0 +1,64 @@
+@import "tailwindcss";
+/* 1. Custom “dark:” variant so utilities work under .dark */
+@theme {
+  --background: theme("colors.white");
+  --primary: theme("colors.gray.900");
+  --secondary: theme("colors.white");
+  --main: theme("colors.gray.100");
+  --card: theme("colors.white");
+}
+.dark {
+  --background: theme("colors.gray.900");
+  --primary: theme("colors.white");
+  --secondary: theme("colors.gray.600");
+  --main: theme("colors.gray.700");
+  --card: theme("colors.gray.800");
+}
+
+@layer utilities {
+  .bg-background {
+    background-color: var(--background);
+  }
+  .bg-secondary {
+    background-color: var(--secondary);
+  }
+  .text-primary {
+    color: var(--primary);
+  }
+  .text-secondary {
+    color: var(--secondary);
+  }
+  .bg-main {
+    background-color: var(--main);
+  }
+  .bg-card {
+    background-color: var(--card);
+  }
+}
+@layer base {
+  button {
+    @apply cursor-pointer
+
+  }
+}
+
+@layer components {
+  .form-input {
+    @apply border-gray-300 text-gray-900 w-full border rounded px-2 py-2;
+
+    /* focus */
+    @apply focus:border-blue-500 focus:outline-blue-500;
+  }
+  .form-input:disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+  .form-error-input {
+    /* invalid state */
+    @apply border-red-600 text-red-700;
+
+    /* focus while invalid */
+    @apply focus:border-red-500 focus:outline-red-500;
+
+  }
+}
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));

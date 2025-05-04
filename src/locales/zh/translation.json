@@ -1,0 +1,181 @@
+{
+  "home": "首頁",
+  "rooms": "房間管理",
+  "parking": "停車位",
+  "owners": "業主",
+  "settings": "設定",
+  "logout": "登出",
+  "export": "匯出",
+  "export_current": "匯出本頁",
+  "export_all": "匯出全部",
+  "page_of": "第 {{page}} 頁，共 {{totalPages}} 頁",
+  "totals": "總數：{{totalCount}}",
+  "sign_in": "登入您的帳號",
+  "email": "電子郵件",
+  "password": "密碼",
+  "submit": "登入",
+  "total_rooms": "總房間數",
+  "parking_spots": "停車位",
+  "monthly_revenue": "本月收益",
+  "outstanding": "待收款項",
+  "home_title": "最近活動",
+  "table": {
+    "table_home": {
+      "title": "最近活動",
+      "columns": {
+        "room": "房間",
+        "rental": "租金",
+        "type": "類型",
+        "amount": "金額",
+        "date": "日期"
+      }
+    }
+  },
+  "form": {
+    "btn": {
+      "save": "儲存",
+      "cancel": "取消"
+    },
+    "room_number": {
+      "title": "房間號碼",
+      "placeholder": "Enter room number",
+      "error": {
+        "required": "Room number is required",
+        "invalid": "Invalid room number"
+      }
+    },
+    "rent_amount": {
+      "title": "租金",
+      "placeholder": "Enter rental amount",
+      "error": {
+        "required": "Rental amount is required",
+        "invalid": "Invalid rental amount"
+      }
+    },
+    "name": {
+      "title": "業主姓名",
+      "placeholder": "Select type",
+      "error": {
+        "required": "Type is required"
+      }
+    },
+    "phone": {
+      "title": "電話",
+      "placeholder": "Enter amount",
+      "error": {
+        "required": "Amount is required",
+        "invalid": "Invalid amount"
+      }
+    },
+    "contract_start_date": {
+      "title": "合約開始日",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "contract_end_date": {
+      "title": "合約結束日",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "deposit": {
+      "title": "押金",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "payment": {
+      "title": "Payment Method",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "payment_period": {
+      "title": "付款週期",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      },
+      "options": {
+        "1": "月付",
+        "2": "季付",
+        "3": "半年付",
+        "4": "年付"
+      }
+    },
+    "waterandelectricity": {
+      "title": "水電費",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "utility_bill_due_date": {
+      "title": "水電費到期日",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      }
+    },
+    "decoration_status": {
+      "title": "裝潢狀態",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      },
+      "options": {
+        "1": "未裝修",
+        "2": "簡裝"
+      }
+    },
+    "check_in_status": {
+      "title": "入住狀態",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      },
+      "options": {
+        "1": "已入住",
+        "2": "未入住"
+      }
+    },
+    "deposite_status": {
+      "title": "押金狀態",
+      "placeholder": "",
+      "error": {
+        "required": ""
+      },
+      "options": {
+        "1": "已交",
+        "2": "未交"
+      }
+    }
+  },
+  "title_edit_room": "編輯房間資料",
+  "title_edit_parking": "停車位管理",
+  "edit": "編輯",
+  "room_count": "房間數量",
+  "parking_count": "停車位數量",
+  "monthly_income": "月收入",
+  "last_collection": "上次收款",
+  "owner_detail": "業主詳情",
+  "owner_management": "業主管理",
+  "property_overview": "房產概覽",
+  "income_summary": "收益概覽",
+  "payment_history": "收款歷史",
+  "payment_cycle": "收款週期",
+  "rent": "租金",
+  "export_report": "匯出報告",
+  "edit_info": "編輯資訊",
+  "parking_management": "停車位管理",
+  "room_management": "房間管理",
+  "last_payment": "上次付款",
+  "next_payment": "下次付款",
+  "edit_owner": "編輯房間",
+  "branding": "凡而賽公寓"
+}
