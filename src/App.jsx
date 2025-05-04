@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import routes from "@/routes/index.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/components/Sidebar.jsx";
 import { useUserStore } from "@/stores/userStore/userInfoStore";
 
 function AppContent() {
