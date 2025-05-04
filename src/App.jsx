@@ -32,14 +32,11 @@ function AppContent() {
 
   return (
     <div className="flex h-screen bg-main text-primary transition-colors">
-{/*       {showSidebar && (
+      {showSidebar && (
         <div className="shadow-md bg-background">
           <Sidebar open={sidebarOpen} setOpen={setSidebarOpen} />
         </div>
-      )} */}
-
-      <NavBar/>
-
+      )}
       <main
         className={`
           flex-1 overflow-auto transition-all duration-1000 ease-in-out
