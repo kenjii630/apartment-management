@@ -59,7 +59,7 @@ export default function RoomManagement() {
         />
       </div>
 
-      <div className="overflow-y-auto max-h-[calc(100vh-120px)]">
+      <div className="overflow-y-auto max-h-[calc(100vh-170px)]">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           {roomsData.map((r) => (
             <Card
