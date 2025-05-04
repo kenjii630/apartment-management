@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import routes from "@/routes/index.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Sidebar from "@/components/Sidebar.jsx";
+// import Sidebar from "@/components/Sidebar.jsx";
 import { useUserStore } from "@/stores/userStore/userInfoStore";
 
 function AppContent() {
@@ -32,11 +32,11 @@ function AppContent() {
 
   return (
     <div className="flex h-screen bg-main text-primary transition-colors">
-      {showSidebar && (
+{/*       {showSidebar && (
         <div className="shadow-md bg-background">
           <Sidebar open={sidebarOpen} setOpen={setSidebarOpen} />
         </div>
-      )}
+      )} */}
 
       <main
         className={`
